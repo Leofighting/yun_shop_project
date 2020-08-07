@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe3ea74-3076-4fcf-9620-9e2be3bec952" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/web/test_product_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/web/test_product_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fjFZ3BUQyDVIJYTb9bC2dKendO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,8 +35,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_product_list.TestSearch">
-    <configuration name="Unittests for test_product_list.TestSearch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_product_type.TestSearch">
+    <configuration name="Unittests for test_product_type.TestSearch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yun_shop_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,11 +47,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product_list.TestSearch&quot;" />
+      <option name="_new_target" value="&quot;test_product_type.TestSearch&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_product_list.TestSearch.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_product_type.TestSearch.test_product_list01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yun_shop_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +62,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product_list.TestSearch.test&quot;" />
+      <option name="_new_target" value="&quot;test_product_type.TestSearch.test_product_list01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_product_list.TestSearch.test_product_list02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_product_type.TestSearch.test_product_list02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yun_shop_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +77,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product_list.TestSearch.test_product_list02&quot;" />
+      <option name="_new_target" value="&quot;test_product_type.TestSearch.test_product_list02&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_type_list.TestTypeList.test_type_list03" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_product_type.TestSearch.test_product_type03" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yun_shop_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +92,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_type_list.TestTypeList.test_type_list03&quot;" />
+      <option name="_new_target" value="&quot;test_product_type.TestSearch.test_product_type03&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_product_list.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_product_type.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yun_shop_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,17 +107,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/web/test_product_list.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/web/test_product_type.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_product_list.TestSearch" />
-        <item itemvalue="Python tests.Unittests for test_product_list.TestSearch.test_product_list02" />
-        <item itemvalue="Python tests.Unittests for test_product_list.TestSearch.test" />
-        <item itemvalue="Python tests.Unittests in test_product_list.py" />
-        <item itemvalue="Python tests.Unittests for test_type_list.TestTypeList.test_type_list03" />
+        <item itemvalue="Python tests.Unittests for test_product_type.TestSearch" />
+        <item itemvalue="Python tests.Unittests for test_product_type.TestSearch.test_product_type03" />
+        <item itemvalue="Python tests.Unittests for test_product_type.TestSearch.test_product_list02" />
+        <item itemvalue="Python tests.Unittests for test_product_type.TestSearch.test_product_list01" />
+        <item itemvalue="Python tests.Unittests in test_product_type.py" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596723646266</updated>
       <workItem from="1596723647727" duration="7081000" />
-      <workItem from="1596755555966" duration="12224000" />
+      <workItem from="1596755555966" duration="19043000" />
     </task>
     <servers />
   </component>
@@ -137,34 +140,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1087" height="360" key="GridCell.Tab.0.bottom" timestamp="1596769435345">
+    <state width="1087" height="360" key="GridCell.Tab.0.bottom" timestamp="1596781228292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1087" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596769435345" />
-    <state width="1087" height="360" key="GridCell.Tab.0.center" timestamp="1596769435345">
+    <state width="1087" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596781228292" />
+    <state width="1087" height="360" key="GridCell.Tab.0.center" timestamp="1596781228292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1087" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596769435345" />
-    <state width="1087" height="360" key="GridCell.Tab.0.left" timestamp="1596769435345">
+    <state width="1087" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596781228292" />
+    <state width="1087" height="360" key="GridCell.Tab.0.left" timestamp="1596781228292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1087" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596769435345" />
-    <state width="1087" height="360" key="GridCell.Tab.0.right" timestamp="1596769435345">
+    <state width="1087" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596781228292" />
+    <state width="1087" height="360" key="GridCell.Tab.0.right" timestamp="1596781228292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1087" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596769435345" />
+    <state width="1087" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596781228292" />
     <state x="752" y="219" key="SettingsEditor" timestamp="1596723728748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596723728748" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1596781517336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596781517336" />
+    <state x="1029" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1596771827763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1029" y="285" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596771827763" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_product_type_TestSearch_test_product_list02.coverage" NAME="Unittests for test_product_type.TestSearch.test_product_list02 Coverage Results" MODIFIED="1596770615643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_search_TestSearch_test_search04.coverage" NAME="Unittests for test_search.TestSearch.test_search04 Coverage Results" MODIFIED="1596756574266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_in_test_type_list_py.coverage" NAME="Unittests in test_type_list.py Coverage Results" MODIFIED="1596761273665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_product_list_TestSearch_test.coverage" NAME="Unittests for test_product_list.TestSearch.test Coverage Results" MODIFIED="1596764399340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_in_test_product_type_py.coverage" NAME="Unittests in test_product_type.py Coverage Results" MODIFIED="1596770139168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_product_list_TestSearch_test_product_list02.coverage" NAME="Unittests for test_product_list.TestSearch.test_product_list02 Coverage Results" MODIFIED="1596765878541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_product_type_TestSearch.coverage" NAME="Unittests for test_product_type.TestSearch Coverage Results" MODIFIED="1596781228279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$settings.coverage" NAME="settings Coverage Results" MODIFIED="1596725966880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/properties" />
     <SUITE FILE_PATH="coverage/yun_shop_project$test.coverage" NAME="test Coverage Results" MODIFIED="1596725647495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_product_type_TestSearch_test_product_list01.coverage" NAME="Unittests for test_product_type.TestSearch.test_product_list01 Coverage Results" MODIFIED="1596770562936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_product_type_TestSearch_test_product_type03.coverage" NAME="Unittests for test_product_type.TestSearch.test_product_type03 Coverage Results" MODIFIED="1596771965202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_for_test_type_list_TestTypeList_test_type_list03.coverage" NAME="Unittests for test_type_list.TestTypeList.test_type_list03 Coverage Results" MODIFIED="1596761319217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_in_test_search_py.coverage" NAME="Unittests in test_search.py Coverage Results" MODIFIED="1596730048190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/yun_shop_project$Unittests_in_test_product_list_py.coverage" NAME="Unittests in test_product_list.py Coverage Results" MODIFIED="1596764042812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />

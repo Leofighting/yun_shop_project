@@ -31,6 +31,7 @@ class TestSearch(unittest.TestCase):
         self.driver.implicitly_wait(10)
         Login(self.driver).login()
         print("start time:{}".format(TIME_RECORD))
+        time.sleep(1)
 
     def tearDown(self) -> None:
         """
@@ -49,7 +50,6 @@ class TestSearch(unittest.TestCase):
         商品列表页面
         :return:
         """
-        time.sleep(1)
         # 定位顶部菜单栏“商品”
         product_element = self.driver.find_element_by_xpath("//a[@parent-id='3']")
         product_element.click()
@@ -64,7 +64,6 @@ class TestSearch(unittest.TestCase):
         添加产品功能
         :return:
         """
-        time.sleep(1)
         # 定位顶部菜单栏“商品”
         product_element = self.driver.find_element_by_xpath("//a[@parent-id='3']")
         product_element.click()
@@ -77,7 +76,6 @@ class TestSearch(unittest.TestCase):
         check_text = self.driver.find_element_by_xpath("//div[@class='cnav']/a").text
         # 发布宝贝 按钮不可用
         button_status = self.driver.find_element_by_id("submit_cats").is_enabled()
-        print(button_status)
         # 断言
         self.assertEqual("选择分类", check_text)
         self.assertFalse(button_status)
@@ -87,7 +85,6 @@ class TestSearch(unittest.TestCase):
         选择分类-各级分类均选择中间1项，发布宝贝
         :return:
         """
-        time.sleep(1)
         # 定位顶部菜单栏“商品”
         product_element = self.driver.find_element_by_xpath("//a[@parent-id='3']")
         product_element.click()
@@ -123,7 +120,6 @@ class TestSearch(unittest.TestCase):
         删除确认弹窗-取消
         :return:
         """
-        time.sleep(1)
         # 定位顶部菜单栏“商品”
         product_element = self.driver.find_element_by_xpath("//a[@parent-id='3']")
         product_element.click()
@@ -133,7 +129,11 @@ class TestSearch(unittest.TestCase):
         delete_button = self.driver.find_element_by_xpath("//a[@data-id='188']")
         delete_button.click()
         self.driver.switch_to.alert.dismiss()
-        result = delete_button.is_displayed()
+        try:
+            delete_button.is_displayed()
+            result = True
+        except:
+            result = False
         self.assertTrue(result)
 
     def test_product_list05(self):
@@ -141,7 +141,6 @@ class TestSearch(unittest.TestCase):
         删除确认弹窗-确定
         :return:
         """
-        time.sleep(1)
         # 定位顶部菜单栏“商品”
         product_element = self.driver.find_element_by_xpath("//a[@parent-id='3']")
         product_element.click()
