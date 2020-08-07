@@ -6,7 +6,6 @@ import unittest
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
-from selenium.webdriver.common.keys import Keys
 
 from properties.settings import YUN_SHOP_INDEX, TIME_RECORD
 from public.save_screenshot import SaveScreenshot
