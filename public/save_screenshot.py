@@ -7,6 +7,9 @@ from properties.settings import PROJECT_FILE, TIME_RECORD, FILE_TIME
 
 
 class SaveScreenshot:
+    """
+    保存截屏
+    """
     def __init__(self, driver):
         self.driver = driver
 

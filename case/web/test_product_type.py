@@ -7,7 +7,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
-from properties.settings import YUN_SHOP_INDEX, TIME_RECORD, ADMIN_INDEX
+from properties.settings import TIME_RECORD, ADMIN_INDEX
 from public.login import Login
 from public.save_screenshot import SaveScreenshot
 
@@ -121,7 +121,7 @@ class TestSearch(unittest.TestCase):
         """
         父级分类-选择第一项
         :return:
-    #     """
+        """
         # 分类id
         type_id = "1"
         # 定位顶部菜单栏“商品”
@@ -163,7 +163,7 @@ class TestSearch(unittest.TestCase):
         """
         父级分类-选择中间一项
         :return:
-    #     """
+        """
         # 分类id
         type_id = "270"
         # 定位顶部菜单栏“商品”

@@ -74,6 +74,7 @@ class TestTypeList(unittest.TestCase):
         element2.click()
 
         result_text = self.driver.find_element_by_xpath("//div[@class='dh']").text
+        # 断言
         self.assertIn(type_text, result_text)
 
     def test_type_list03(self):
@@ -91,11 +92,13 @@ class TestTypeList(unittest.TestCase):
         )
         type_text = element2.text
         element2.click()
-
+        # 获取页面跳转后的“您的位置：……”信息
         result_text = self.driver.find_element_by_xpath("//div[@class='dh']").text
+        # 断言
         self.assertIn(type_text, result_text)
-
+        # 获取数据为空时的显示文本内容
         null_text = self.driver.find_element_by_class_name("nomsg").text
+
         self.assertIn("抱歉，没有找到相关的商品", null_text)
 
 

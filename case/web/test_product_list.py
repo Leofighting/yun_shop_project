@@ -6,7 +6,7 @@ import unittest
 
 from selenium import webdriver
 
-from properties.settings import YUN_SHOP_INDEX, TIME_RECORD, ADMIN_INDEX
+from properties.settings import TIME_RECORD, ADMIN_INDEX
 from public.login import Login
 from public.save_screenshot import SaveScreenshot
 
